@@ -1,0 +1,50 @@
+.light, .dark{
+  .services{
+    padding: 65px 120px;
+    background: #f8f8f8;
+    h2{
+      font-size: 37px;
+      font-weight: 700;
+      color: #402C36;
+    }
+    .swiper{
+      justify-content: space-between;
+      .swiper-pagination{
+        display: none;
+      }
+      .swiper-slide{
+        padding-top: 40px;
+      }
+      .swiperBox{
+        position: relative;
+        background: #ffffff;
+        padding: 50px 45px 30px 25px;
+        border-radius: 12px;
+        h3{
+          font-size: 21px;
+          font-weight: 600;
+          line-height: 25px;
+          color: #402C36;
+          margin-bottom: 15px;
+        }
+        p{
+          font-size: 15px;
+          font-weight: 400;
+          color: #c2b7bd;
+        }
+        img{
+          position: absolute;
+          top: -35px;
+          right: 15px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px){
+  .light, .dark {
+    .services{
+      padding: 65px 280px;
+    }
+  }
+}
