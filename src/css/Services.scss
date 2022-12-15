@@ -12,6 +12,13 @@
       .swiper-pagination{
         display: none;
       }
+      .swiper-button-prev, .swiper-button-next{
+        width: 44px;
+        height: 44px;
+        background: #E72887;
+        border-radius: 50%;
+      }
+      .swiper-button-next{}
       .swiper-slide{
         padding-top: 40px;
       }
