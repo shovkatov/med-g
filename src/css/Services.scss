@@ -15,10 +15,17 @@
       .swiper-button-prev, .swiper-button-next{
         width: 44px;
         height: 44px;
-        background: #E72887;
+        background: rgba(231, 40, 135, 0.1);
         border-radius: 50%;
+        transform: translate(10px ,20px);
+        &:after{
+          font-size: 18px;
+          color: #E72887;
+        }
       }
-      .swiper-button-next{}
+      .swiper-button-prev{
+        transform: translate(-10px, 20px);
+      }
       .swiper-slide{
         padding-top: 40px;
       }
@@ -43,6 +50,31 @@
           position: absolute;
           top: -35px;
           right: 15px;
+        }
+      }
+    }
+  }
+}
+.dark{
+  .services{
+    background: #323232;
+    h2{
+      color: #ffffff;
+    }
+    .swiper{
+      .swiper-button-prev, .swiper-button-next{
+        background: #585858;
+        &:after{
+          color: #ffffff;
+        }
+      }
+      .swiperBox{
+        background: #454545;
+        h3{
+          color: #ffffff;
+        }
+        p{
+          color: #c2b7bd;
         }
       }
     }
